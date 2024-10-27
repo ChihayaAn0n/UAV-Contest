@@ -1,0 +1,2 @@
+[ Sun Oct 27 13:16:31 2024 ] Load weights from ./output/ctrgcn_V1_B_3D_env2/runs-75-47400.pt.
+[ Sun Oct 27 13:16:38 2024 ] using warm up, epoch: 5

@@ -1,0 +1,4 @@
+[ Sun Oct 27 13:39:01 2024 ] Load weights from ./output/mixformer_V1_J/runs-57-7296.pt.
+[ Sun Oct 27 13:39:04 2024 ] using warm up, epoch: 5
+[ Sun Oct 27 13:40:48 2024 ] Load weights from ./output/mixformer_V1_J/runs-57-7296.pt.
+[ Sun Oct 27 13:40:52 2024 ] using warm up, epoch: 5

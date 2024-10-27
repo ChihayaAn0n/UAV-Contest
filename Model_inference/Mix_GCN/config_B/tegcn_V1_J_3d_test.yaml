@@ -1,0 +1,27 @@
+work_dir: ./output_B/tegcn_V1_J_3d
+
+# feeder
+feeder: dataset.feeder_tegcn.Feeder
+test_feeder_args:
+  data_path: dataset/save_3d_pose/V1_test_B.npz
+  label_path: ./data/uav/xsub1/test_label.pkl
+  data_split: test
+  debug: False
+
+# model
+model: model.tegcn_xyz.Model
+model_args:
+  num_class: 155
+  num_point: 17
+  num_person: 2
+  graph: graph.uav.Graph
+  graph_args:
+    labeling_mode: 'spatial'
+
+# test
+phase: test
+device: [0,1,2,3]
+test_batch_size: 256
+weights: ./output/tegcn_V1_J_3d_save/runs-49-25650.pt
+
+save_score: True

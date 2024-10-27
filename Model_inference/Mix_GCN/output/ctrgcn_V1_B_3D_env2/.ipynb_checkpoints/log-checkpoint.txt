@@ -1,0 +1,13 @@
+[ Sat Oct 26 18:12:09 2024 ] using warm up, epoch: 5
+[ Sat Oct 26 18:12:42 2024 ] Parameters:
+{'work_dir': './output/ctrgcn_V1_B_3D_env2', 'model_saved_name': './output/ctrgcn_V1_B_3D_env2/runs', 'config': './config/ctrgcn_V1_B_3d_env2.yaml', 'phase': 'train', 'save_score': False, 'seed': 1, 'log_interval': 100, 'save_interval': 1, 'save_epoch': 30, 'eval_interval': 5, 'print_log': True, 'show_topk': [1, 5], 'feeder': 'dataset.feeder_xyz.Feeder', 'num_worker': 8, 'train_feeder_args': {'data_path': 'dataset/save_3d_pose/train_joint.npz', 'data_split': 'train', 'p_interval': [0.5, 1], 'window_size': -1, 'bone': True, 'vel': False}, 'test_feeder_args': {'data_path': 'dataset/save_3d_pose/V1_3d_4_J.npz', 'data_split': 'test', 'p_interval': [0.95], 'window_size': -1, 'bone': True, 'vel': False}, 'model': 'model.ctrgcn_xyz.Model', 'model_args': {'num_class': 155, 'num_point': 17, 'num_person': 2, 'graph': 'graph.Simcc.Graph', 'graph_args': {'labeling_mode': 'spatial'}}, 'weights': None, 'ignore_weights': [], 'base_lr': 0.2, 'step': [70, 80], 'device': [0], 'optimizer': 'SGD', 'nesterov': True, 'batch_size': 32, 'test_batch_size': 32, 'start_epoch': 0, 'num_epoch': 100, 'weight_decay': 0.0001, 'lr_decay_rate': 0.1, 'warm_up_epoch': 5}
+
+[ Sat Oct 26 18:12:42 2024 ] # Parameters: 1460911
+[ Sat Oct 26 18:12:42 2024 ] Training epoch: 1
+[ Sat Oct 26 18:20:03 2024 ] 	Mean training loss: 4.6910.  Mean training acc: 2.58%.
+[ Sat Oct 26 18:20:03 2024 ] 	Time consumption: [Data]01%, [Network]99%
+[ Sat Oct 26 18:20:03 2024 ] Eval epoch: 1
+[ Sat Oct 26 18:20:19 2024 ] 	Mean test loss of 63 batches: 4.45534548683772.
+[ Sat Oct 26 18:20:19 2024 ] 	Top1: 3.15%
+[ Sat Oct 26 18:20:19 2024 ] 	Top5: 11.75%
+[ Sat Oct 26 18:20:19 2024 ] Training epoch: 2

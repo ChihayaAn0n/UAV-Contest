@@ -1,0 +1,2 @@
+[ Sun Oct 27 13:37:35 2024 ] Load weights from ./output/tegcn_V1_J_3d/runs-49-25650.pt.
+[ Sun Oct 27 13:37:36 2024 ] using warm up, epoch: 5
