@@ -4,7 +4,7 @@
 
 # 数据处理
 
-首先根据DataProcess.ipynb产生数据集文件。
+首先根据DataProcess.ipynb产生数据集文件。环境：requirement_data.txt
 cd submit
 产生V1_3d_4_J.npz，复制到./Model_inference/Mix_GCN/dataset/save_3d_pose下，和./Model_inference/Mix_Former/dataset/save_3d_pose下
 产生V1_2d_4_J.npz，复制到./Model_inference/Mix_GCN/dataset/save_2d_pose下
